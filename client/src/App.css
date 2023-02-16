@@ -72,7 +72,7 @@ video{
 
   @media screen and (max-width: 520px){
     .scrollbtn{right:3%;
-      bottom: 3%;
+      bottom: 1%;
     position: fixed;
     z-index: 10;}
   }

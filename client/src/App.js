@@ -81,15 +81,15 @@ function App() {
     Crisp.configure("7417f157-d1b7-4b70-aa36-2290c9a628b3")
   })
   
-  // useEffect(() => {
-  //     const handleContextmenu = e => {
-  //         e.preventDefault()
-  //     }
-  //     document.addEventListener('contextmenu', handleContextmenu)
-  //     return function cleanup() {
-  //         document.removeEventListener('contextmenu', handleContextmenu)
-  //     }
-  // }, [ ])
+  useEffect(() => {
+      const handleContextmenu = e => {
+          e.preventDefault()
+      }
+      document.addEventListener('contextmenu', handleContextmenu)
+      return function cleanup() {
+          document.removeEventListener('contextmenu', handleContextmenu)
+      }
+  }, [ ])
    
   
     return (
