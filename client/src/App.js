@@ -108,15 +108,15 @@ function App() {
     Crisp.configure("7417f157-d1b7-4b70-aa36-2290c9a628b3")
   })
   
-  // useEffect(() => {
-  //     const handleContextmenu = e => {
-  //         e.preventDefault()
-  //     }
-  //     document.addEventListener('contextmenu', handleContextmenu)
-  //     return function cleanup() {
-  //         document.removeEventListener('contextmenu', handleContextmenu)
-  //     }
-  // }, [ ])
+  useEffect(() => {
+      const handleContextmenu = e => {
+          e.preventDefault()
+      }
+      document.addEventListener('contextmenu', handleContextmenu)
+      return function cleanup() {
+          document.removeEventListener('contextmenu', handleContextmenu)
+      }
+  }, [ ])
    
   
     return (
@@ -152,30 +152,29 @@ function App() {
         <header className="nav-fixed">
           <NavBar scroldown1={scroldown1} />
         </header>
-        <Suspense fallback={<CircularProgress sx={{color : "black" ,display : "flex" , alignItems : "center" , justifyContent : "center" , m : "auto" , mt :"25%"  }} size="3.5rem" />} >   
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/*" element={<Error/>} />
-          <Route  path="/professionnel" element={<Professionel/>}/> 
-          <Route path="/offre-d-emploi" element={<Offredemploi/>} />
-          <Route path="/gestionnaire-de-flotte" element={<Gestionnairedeflotte/>} />
-          <Route path="/contactez-nous" element={<ContactUs/>} />
-          <Route path="/a-propos" element={<Apropos/>} />
-          <Route path="/blogs" element={<Actualités/>} />
-          <Route path="/particulier" element={<Particulier/>} />
-          <Route path="/reservation" element={<Reservation/>} />  
-          <Route path="/candidature/:id" element={<Postulation/>} />      
-          <Route path="/blog/:id" element={<OneActus/>} />
-  
-          {!isAuthAdmin && <Route path="/loginadmin" element={ <LoginAdmin/>} />}  
-          {isAuthAdmin && <Route path="/parametre/:id" element={<Parametre/>}/>}
-          {isAuthAdmin && <Route path="/ajouter-offre-d-emploi" element={ <AddOffreEmploi/>} />}  
-          {isAuthAdmin && <Route path="/ajouter-blog" element={ <AddActus/>} />} 
-          {isAuthAdmin && <Route path="/listnewsletter" element={<ListNewsLetter/>} />}  
-          {isAuthAdmin && <Route path="/listreservation" element={<ListReservation/>} />}     
-          {isAuthAdmin && <Route path="/candidatures" element={<Candidature/>} />} 
-        </Routes>
-        </Suspense>
+            <Suspense fallback={<CircularProgress sx={{color : "black" ,display : "flex" , alignItems : "center" , justifyContent : "center" , m : "auto" , mt :"20%"  }} size="3.5rem" />} >   
+              <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route path="/*" element={<Error/>} />
+                <Route  path="/professionnel" element={<Professionel/>}/> 
+                <Route path="/offre-d-emploi" element={<Offredemploi/>} />
+                <Route path="/gestionnaire-de-flotte" element={<Gestionnairedeflotte/>} />
+                <Route path="/contactez-nous" element={<ContactUs/>} />
+                <Route path="/a-propos" element={<Apropos/>} />
+                <Route path="/blogs" element={<Actualités/>} />
+                <Route path="/particulier" element={<Particulier/>} />
+                <Route path="/reservation" element={<Reservation/>} />  
+                <Route path="/candidature/:id" element={<Postulation/>} />      
+                <Route path="/blog/:id" element={<OneActus/>} />  
+                {!isAuthAdmin && <Route path="/loginadmin" element={ <LoginAdmin/>} />}  
+                {isAuthAdmin && <Route path="/parametre/:id" element={<Parametre/>}/>}
+                {isAuthAdmin && <Route path="/ajouter-offre-d-emploi" element={ <AddOffreEmploi/>} />}  
+                {isAuthAdmin && <Route path="/ajouter-blog" element={ <AddActus/>} />} 
+                {isAuthAdmin && <Route path="/listnewsletter" element={<ListNewsLetter/>} />}  
+                {isAuthAdmin && <Route path="/listreservation" element={<ListReservation/>} />}     
+                {isAuthAdmin && <Route path="/candidatures" element={<Candidature/>} />} 
+              </Routes>
+          </Suspense>
         <Sponsor myRef1={myRef1}/>
         <NewsLetter/>
         <Footer/>
