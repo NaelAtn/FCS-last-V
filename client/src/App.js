@@ -1,8 +1,36 @@
 import { Route, Routes} from "react-router-dom";
 import "./App.css";
+import "./Pages/Offredemploi/Offredemploi.css";
+import "./Pages/Professionel/Professionel.css";
+import "./Pages/Postulation/Postulation.css"
+import "./Pages/Particulier/Particulier.css";
+import "./Pages/LoginAdmin/LoginAdmin.css";
+import "./Pages/Home/Home.css";
+import "./Pages/Gestionnairedeflotte/Gestionnairedeflotte.css";
+import "./Pages/Error/Error.css";
+import "./Pages/ContactUs/ContactUs.css";
+import "./Pages/Candidature/Candidature.css";
+import "./Pages/Apropos/Apropos.css";
+import "./Pages/AddOffreEmploi/AddOffreEmploi.css";
+import "./Pages/Actualités/Actualités.css";
+import "./Components/ActusHome/ActusHome.css";
+import "./Components/ContactFooter/ContactFooter.css";
+import "./Components/ContactHome/ContactHome.css";
+import "./Components/Footer/Footer.css";
+import "./Components/Gestionnairedeflootecards/Gestionnairedeflootecards.css";
+import "./Components/GestionnairedeflotteHome/GestionnairedeflotteHome.css";
+import "./Components/HomeVideo/HomeVideo.css";
+import "./Components/NavBar/Navs.css";
+import "./Components/NewsLetter/NewsLetter.css";
+import "./Components/Prices/Prices.css";
+import "./Components/ReservationForm/ReservationForm.css";
+import "./Components/ScrollTop/ScrollTop.css";
+import "./Components/ServiceCard/ServiceCard.css";
+import "./Components/Sponsor/Sponsor.css";
+import "./Components/Stats/Stats.css";
+import "./Components/Successnotification/Successnotification.css";
 import Footer from "./Components/Footer/Footer";
 import ScrollTop from "./Components/ScrollTop/ScrollTop";
-
 import { useDispatch, useSelector } from "react-redux";
 import Successnotification from "./Components/Successnotification/Successnotification";
 import Errornotification from "./Components/Errornotification/Errornotification";
@@ -15,7 +43,6 @@ import { currentAdmin } from "./JS/Actions/admin";
 import{useLocation} from"react-router-dom";
 import { Crisp } from "crisp-sdk-web";
 import { CircularProgress } from "@mui/material";
-
 const NavBar = lazy(()=>import("./Components/NavBar/NavBar"))
 const Error = lazy(()=>import("./Pages/Error/Error"))
 const Home = lazy(()=>import("./Pages/Home/Home"))
@@ -81,15 +108,15 @@ function App() {
     Crisp.configure("7417f157-d1b7-4b70-aa36-2290c9a628b3")
   })
   
-  useEffect(() => {
-      const handleContextmenu = e => {
-          e.preventDefault()
-      }
-      document.addEventListener('contextmenu', handleContextmenu)
-      return function cleanup() {
-          document.removeEventListener('contextmenu', handleContextmenu)
-      }
-  }, [ ])
+  // useEffect(() => {
+  //     const handleContextmenu = e => {
+  //         e.preventDefault()
+  //     }
+  //     document.addEventListener('contextmenu', handleContextmenu)
+  //     return function cleanup() {
+  //         document.removeEventListener('contextmenu', handleContextmenu)
+  //     }
+  // }, [ ])
    
   
     return (
