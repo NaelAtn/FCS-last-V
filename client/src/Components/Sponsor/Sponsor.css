@@ -1,0 +1,48 @@
+.sponsor-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hr1{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.hr1{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.text-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 38px;
+    color:  #151515 ;
+}
+
+.sponsor-margin{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+@media screen and (max-width: 768px){
+    .sponsor-ico{
+        width: 30%;
+    }
+    .text-footer{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+    .sponsor-ico{
+        width: 15%;
+    }
+}

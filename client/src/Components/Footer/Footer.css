@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+footer{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("backgroundfooter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 2%;  
+}
+.v1:hover{
+    text-decoration:underline
+}
+.v1{
+    text-decoration:none
+}
+.v1:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.white-logo2{
+    display: none;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.v1{
+    color: #ffffff;
+}
+
+.footer-flex{
+    margin-left: 6%;
+}
+.Footer-infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.v1{
+    margin-left: 0.8rem;
+    cursor: pointer;
+}
+
+.footer-info-ico{
+    width: 5%;
+}
+
+.hr2{
+    width: 87.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color:#ffffff ;
+}
+.hr2{
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    height: 0.5px;
+    border: none;
+}
+.white-logo{
+margin-left: 4.2%;
+    width: 3rem;
+}
+
+.v2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 768px){
+
+    footer{
+        font-family: 'Open Sans', sans-serif;
+        background-image: url("backgroundfooterresponsive.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 3%;  
+
+    }
+    .footer-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    } 
+    .white-logo{
+        display: none;
+    }
+    .white-logo2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 2.40rem;
+    }
+    .white-logo2{
+        margin-bottom: 2.5%;
+    }
+    .Footer-infos{
+        margin-bottom: 2.5%
+    }
+    .social-media{
+        margin-bottom: 2.5%
+    }
+}
+
+
+@media screen and (max-width: 280px){
+    .Footer-infos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 75%;
+    }
+
+}

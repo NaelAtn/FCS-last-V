@@ -1,0 +1,218 @@
+.offredemploicontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+.Offredemploi-top{
+    margin-top: 6%;
+}
+
+.Offredemploi-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 3.2rem;
+    animation-duration: 2s; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.offreemploibackground{
+    background-image:url("https://res.cloudinary.com/dlnrtlftr/image/upload/v1675773780/znjyzfrwwoywj55lq09e.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 4%;
+}
+
+.background-text-offre{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+  
+
+@media screen and (max-width: 320px){
+            .Offredemploi-top{
+                margin-top: 20%;
+            }
+
+            .Offredemploi-text{
+                font-size: 1.1rem;
+            }
+        }
+
+
+@media screen and (min-width: 321px) and (max-width: 422px) {
+    .Offredemploi-text{
+        font-size: 1.6rem;
+    }
+
+    .Offredemploi-top{
+        margin-top: 15%
+    }
+
+    .offreemploibackground{
+        background-image:url("https://res.cloudinary.com/dlnrtlftr/image/upload/v1675773867/e9eflbzcbwifubofo2ed.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding: 8%;
+
+    }
+
+    .background-text-offre{
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 3%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }  
+}
+
+@media screen and (min-width: 423px) and (max-width: 549px) {
+    .Offredemploi-text{
+        font-size: 1.6rem;
+    }
+
+    .Offredemploi-top{
+        margin-top: 10%
+    }
+
+    .offreemploibackground{
+        background-image:url("https://res.cloudinary.com/dlnrtlftr/image/upload/v1675773867/e9eflbzcbwifubofo2ed.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding: 8%;
+
+    }
+
+    .background-text-offre{
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 3%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }  
+}
+
+@media screen and (min-width: 550px) and (max-width: 768px) {
+    .Offredemploi-text{
+        font-size: 1.6rem;
+    }
+
+    .Offredemploi-top{
+        margin-top: 8%
+    }
+
+    .offreemploibackground{
+        background-image:url("https://res.cloudinary.com/dlnrtlftr/image/upload/v1675773867/e9eflbzcbwifubofo2ed.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding: 8%;
+
+    }
+
+    .background-text-offre{
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 3%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }   
+}
+
+@media screen and (min-width: 768px) and (max-width: 898px) {
+    .Offredemploi-text{
+        font-size: 1.6rem;
+    }
+
+    .Offredemploi-top{
+        margin-top: 6%
+    }
+
+    .offreemploibackground{
+        background-image:url("https://res.cloudinary.com/dlnrtlftr/image/upload/v1675773867/e9eflbzcbwifubofo2ed.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding: 8%;
+
+    }
+
+    .background-text-offre{
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 3%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }   
+}
+
+@media screen and (min-width: 899px) and (max-width: 992px){
+    .Offredemploi-text{
+        font-size: 1.6rem;
+    }
+
+    .Offredemploi-top{
+        margin-top: 10%
+    }
+
+    .offreemploibackground{
+        background-image:url("https://res.cloudinary.com/dlnrtlftr/image/upload/v1675773867/e9eflbzcbwifubofo2ed.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding: 8%;
+
+    }
+
+    .background-text-offre{
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 3%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }   
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .Offredemploi-text{
+        font-size: 1.6rem;
+    }
+
+    .Offredemploi-top{
+        margin-top: 6%
+    }
+
+    .offreemploibackground{
+        background-image:url("https://res.cloudinary.com/dlnrtlftr/image/upload/v1675773867/e9eflbzcbwifubofo2ed.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding: 8%;
+
+    }
+
+    .background-text-offre{
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 3%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }    
+}

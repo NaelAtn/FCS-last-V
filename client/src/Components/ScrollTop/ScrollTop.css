@@ -1,0 +1,17 @@
+@media screen and (max-width: 520px){
+   .v12{
+      width: 10px;
+   } 
+}
+
+
+@media screen and (max-width: 960px) {
+    .v12{
+        width: 30%;
+     } 
+  }
+
+ .v12{
+    width: 50px;
+    cursor: pointer;
+ } 

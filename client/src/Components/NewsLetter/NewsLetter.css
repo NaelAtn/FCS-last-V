@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.newletter-text{
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+.newsletter-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+.newsletter-flex{
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 768px){
+    .newletter-text{
+        font-size: 0.8rem;
+        width: 80%;
+    }
+
+        .newsletter-flex{
+            flex-direction: column;
+            display: flex;
+        }
+
+}

@@ -1,0 +1,89 @@
+.postulation-text{
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-bottom: 1.5%;
+    padding-left: 7%;
+}
+
+.Postulation-container{
+    margin-top: 3%;
+    padding: 3%;
+}
+
+    .pos-desc-text{
+        width: 90%;
+        font-size: 1.1rem;
+        color: #0c0c0c;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .can-input{
+        margin-left: 10%; 
+    }
+
+    #file-input{
+        display: none;
+    }
+
+    .input-cv{
+    cursor: pointer; 
+    background-color: rgb(248, 248, 248);
+    border: solid #0000003d 0.15rem;
+    padding: 3%;
+    width: fit-content; 
+    border-radius: 0.3rem;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    }   
+
+    .input-cv:hover{
+        cursor: pointer; 
+        background-color: rgb(248, 248, 248);
+        border: solid #000000a8 0.15rem;
+        padding: 3%;
+        width: fit-content; 
+        }   
+    
+
+@media screen and (max-width: 768px){
+    .postulation-text{
+        font-weight: bold;
+        font-size: 1.3rem;
+        margin-bottom: 1.5%;
+        padding-left: 7%;
+    }
+    .pos-desc-text{
+        width: 92.5%;
+        font-size: 0.9rem;
+        color: #0c0c0c;
+        text-align: justify;
+        text-justify: inter-word;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+
+    .input-cv{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .can-input {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 100%; 
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1080px){
+    .can-input{
+        margin-left: 10%; 
+    }
+}

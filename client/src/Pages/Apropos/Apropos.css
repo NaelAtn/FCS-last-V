@@ -1,0 +1,151 @@
+.a-propos-text{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.histoire{
+    width: 50%;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    color: #056CF2;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.img1-a-propos{
+    width: 45%;
+    box-shadow: -2px 5px 10px rgb(0 0 0 / 15%);
+}
+
+.carousel-mid{
+    align-items:  center;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 3%;
+}
+
+.text-img {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    display: flex;
+    width: 37%;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.container-aprops-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4%;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+}
+
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width : 580px;
+    height : 320px;
+    margin-top: 3%;
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 15%);
+    border-radius: 0.2rem;
+}
+
+
+
+@media screen and (max-width: 767px){
+
+    .a-propos-text {
+        font-size: 0.9rem;
+        width: 75%;
+        justify-content: center;
+        margin: auto;
+        margin-top: 5%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .histoire{
+        font-size: 1.2rem;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        margin-top: 3%;
+    }
+
+    .img1-a-propos{
+        width: 90%;
+    }
+
+    .container-aprops-img{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .text-img {
+        font-size: 0.9rem;
+        width: 92.5%;
+        text-align: justify;
+        text-justify: inter-word;
+        justify-content: center;
+        margin: auto;
+        margin-top: 3%;
+        text-align: justify;
+        text-justify: auto; 
+    }
+
+    .map{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width : 80%;
+        height : 40%;
+        margin-top: 3%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .img1-a-propos{
+        width: 65%;
+    }  
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    .container-aprops-img{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-img{
+        text-align: center;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        margin-top: 3%;
+    }
+}

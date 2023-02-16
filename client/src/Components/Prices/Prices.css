@@ -1,0 +1,29 @@
+.price-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.price-container-info{
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 3%;
+}
+
+.prices-bg{
+    background-image: url("./prices-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.5%;
+}
+
+@media screen and (max-width: 620px){
+    .prices-bg{
+        background-image: url("./prices-bg-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 3%;
+    }
+}

@@ -1,0 +1,98 @@
+.g-d-f-container1{
+    display: flex;
+    flex-direction: column;
+
+}
+.bck-gdf{
+    background-image: url("background-gdf.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.g-d-f-container2{
+    display: flex;
+    flex-direction: column;  
+}
+
+.g-d-f-img{
+    width: 72.5%;
+    box-shadow: -2px 5px 10px rgb(0 0 0 / 15%);
+}
+
+.g-d-f-text{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    width: 72.5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: justify;
+}
+
+.gdf-containers{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12.5%;
+    align-items: center;
+    padding: 3%;
+}
+
+.gdf-container-mid{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+
+@media screen and (max-width: 750px) {
+    .gdf-containers{
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .g-d-f-img{
+        width: 52.5%;
+        display: flex;
+        margin: auto;
+        align-items: center;
+    }
+
+    .g-d-f-text{
+        font-size: 0.9rem;
+        line-height: 1.8;
+        width: 92.5%;
+        text-align: justify;
+        text-justify: inter-word;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .g-d-f-container2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bck-gdf{
+        background-image: url("background-gdf.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+@media screen and (min-width: 760px) and (max-width: 1024px){
+    .g-d-f-text{
+        font-size: 1rem;
+        line-height: 1.8;
+        width: 80%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        text-align: justify;
+        text-justify: inter-word;
+    
+    }
+}

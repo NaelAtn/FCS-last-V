@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-item:after {
+    content: "";
+    display: block;
+    height: 1.8px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+  }
+
+  .nav-item:hover{
+    color: #056CF2;
+  }
+  
+  .nav-item:hover:after {
+    width: 100%;
+    background:#056CF2;
+  }
+
+  .FCS-logo{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display:  flex;
+  }

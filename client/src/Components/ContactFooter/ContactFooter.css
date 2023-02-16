@@ -1,0 +1,9 @@
+.contactfooter-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2%;
+    background-color: white;
+    width: 100%;
+}
+

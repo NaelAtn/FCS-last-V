@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+
+.text-box{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.font-reservation{
+    font-family: 'Abel', sans-serif;
+}
+
+.reservation-form{
+width: 100%;
+}
+
+@media screen and (max-width: 650px){
+    .res-title{
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center; 
+    }
+    .res-title{
+        margin-top: 9%;
+    }
+
+    .reservation-form{        
+        width:  80%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+
+}
+        }  
+
+@media screen and (min-width: 950px) and (max-width: 1048px){
+    .reservation-form{        
+        width:  80%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+}
+}
+
+@media screen and (min-width: 700px) and (max-width: 850px) {
+    .reservation-form{        
+        width:  80%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8%;
+}
+}

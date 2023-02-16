@@ -1,0 +1,118 @@
+
+.info-box{
+box-sizing: border-box;
+box-shadow:-2px 10px 15px rgb(0 0 0 / 15%);
+padding: 5%;
+margin-top: 3%;
+flex-wrap: wrap;
+background-image: url("background.png");
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+.text-box{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.res-text:hover{
+    text-decoration:underline;
+    color: #0156c5;  
+}
+.res-text{
+    text-decoration:none;
+    color: #056CF2;
+    display: flex;
+    margin-bottom: 2%;
+}
+.res-text:visited{
+    color: #056CF2;
+}
+
+.reservation-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.res-form{
+    width: 35%;
+}
+
+@media screen and (max-width: 700px) {
+
+    .info-box{
+        width: 85%;
+        padding: 2.5%;
+        margin-left: 0;
+        
+    }
+
+    .reservation-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;  
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .res-text{
+        text-decoration:none;
+        color: #056CF2;
+        display: flex;
+        margin-bottom: 2%;
+    }
+
+    .res-form{
+        width: 90%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (min-width: 925px) and (max-width: 1024px){
+
+    .reservation-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+    .info-box{
+        width: 35%;
+        margin-left: 10%;
+    }
+
+    .res-form{
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 850px){
+    .info-box{
+        width: 50%;
+    }  
+    .res-form{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 280px){
+
+    .res-text{
+        text-decoration:none;
+        color: #056CF2;
+        display: flex;
+        margin-bottom: 2%;
+        font-size: 0.8rem;
+    }
+    .res-form{
+        width: 85%;
+    }
+}

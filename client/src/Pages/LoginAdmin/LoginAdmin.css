@@ -1,0 +1,43 @@
+.login-top{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    background-image: url("background-login.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4.5%;
+}
+
+.text-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 38px;
+    color:  white ;
+}
+
+
+    @media screen and (max-width: 768px) {
+        .login-top{
+            margin-top: 20%;
+        } 
+
+        .text-login{
+            font-size: 1.3rem;
+        }
+
+    }
+
+
+    @media screen and (min-width: 768px) and (max-width: 1080px){
+        .login-top{
+            margin-top: 12%;
+        }
+    }
+    
+    @media screen and (max-width: 280px){
+        .login-top{
+            margin-top: 30%;
+        }
+    }

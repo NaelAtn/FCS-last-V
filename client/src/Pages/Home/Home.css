@@ -1,0 +1,749 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.intro{
+    background-image: url("https://res.cloudinary.com/dlnrtlftr/image/upload/v1675773119/tkcgb4ty4cykf8vbxxp6.jpg");
+    background-size  : cover;
+    background-repeat: no-repeat;
+    padding :6% ;
+    background-attachment: fixed;
+    margin-top: 3.5%;
+}
+
+.water-background{
+  background-image: url("water.png");
+  background-size  : cover;
+  background-repeat: no-repeat;
+}
+
+.FCS{
+  font-size: 9em;
+    color: #ffffff;
+    animation: fadeInDown; 
+    animation-duration: 2s; 
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.service{
+    font-family: 'Inter', sans-serif;
+    font-size: 4rem;
+    color: #ffffff;
+    font-weight: bolder;
+    animation: fadeInDown; 
+    animation-duration: 2.8s; 
+}
+
+.home-button{
+  background-color: #00000000;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding:2%;
+  text-align: center;
+  color: #ffffff;
+  border: 2px solid rgb(255, 255, 255);
+  width: 12rem;
+
+  }
+
+  .home-button1{
+    background-color: #00000000;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 2%;
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+    width: 12rem;
+    margin-left: 4%;
+
+  }
+
+
+  .home-button1:hover{
+    background-color: #056CF2;
+    color: #ffffff;
+    border: 2px solid #056CF2;
+  }
+
+  .home-button:hover{
+    background-color: #056CF2;
+    color: #ffffff;
+    border: 2px solid #056CF2;
+  }
+
+  .home-btns-1{
+    margin-top: 10%;
+  }
+  
+  .a-propos{
+    font-size: 18px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: lighter;
+   }
+
+    
+    .a-propos:before,
+    .a-propos:after {
+      background-color: #AFAFAF;
+      content: "";
+      display: inline-block;
+      height: 1px;
+      position: relative;
+      vertical-align: middle;
+      width: 39.5%;
+    }
+    
+    .a-propos:before {
+      right: 0.5em;
+      margin-left: -50%;
+    }
+    
+    .a-propos:after {
+      left: 0.5em;
+      margin-right: -50%;
+    }
+
+  .offres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38px;
+    color:  #151515 ;
+  }
+  
+  .offres{
+    margin-top: 2%;
+  }
+  
+  .description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+    width: 95%;
+  }
+
+  .text-backgound{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5rem;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+  }
+
+  .description2{
+    margin-left: 20%;
+  }
+.home-btns{
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 320px) {
+  .text-backgound{
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
+  }
+  .home-btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 5%;
+  }
+  .description2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .home-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size:0.95rem;
+    padding: 2.5%;
+  }
+  
+  .home-button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size:0.95rem;
+    padding: 2.5%;
+  }
+  
+  .home-button1{
+    margin-top: 5%;
+  }
+  
+  .offres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 1.3rem;
+    width: 70%;
+    text-align: center;
+  } 
+  
+  .offres{
+    margin-top: 2.5%;
+  }
+  
+  .FCS{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .service{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+  
+  }
+  
+  .description{
+    font-size: 15px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-weight: lighter;
+    
+  }
+  .description{
+    margin-top: 1rem;
+  }
+  .FCS{
+    margin-top: 1rem;
+  }
+  .intro{
+    background-image: url("https://res.cloudinary.com/dlnrtlftr/image/upload/v1675774049/sb8vx68ulilp0p5zj60w.jpg");
+    background-size  : contain;
+    background-repeat: no-repeat;
+    padding :12% ;
+    margin-top: 20%;
+}
+
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 422px)   {
+  .intro{
+    background-image: url("https://res.cloudinary.com/dlnrtlftr/image/upload/v1675774055/hhzct0c9ye9e8wwi0yiv.jpg");
+    background-size  : contain;
+    background-repeat: no-repeat;
+    padding :12% ;
+    margin-top: 15%;
+}
+
+.a-propos:before,
+.a-propos:after {
+  background-color: #AFAFAF;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 27.5%;
+}
+.text-backgound{
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem;
+}
+.home-btns{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 5%;
+}
+.description2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.home-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size:0.95rem;
+  padding: 2.5%;
+}
+
+.home-button1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size:0.95rem;
+  padding: 2.5%;
+}
+
+.home-button1{
+  margin-top: 5%;
+}
+
+.offres{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 1.3rem;
+  width: 70%;
+  text-align: center;
+} 
+
+.offres{
+  margin-top: 2.5%;
+}
+
+.FCS{
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.service{
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+
+}
+
+.description{
+  font-size: 15px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  font-weight: lighter;
+  
+}
+.description{
+  margin-top: 1rem;
+}
+.FCS{
+  margin-top: 1rem;
+}
+}
+
+@media screen and (min-width: 423px) and (max-width: 549px)   {
+  .intro{
+    background-image: url("https://res.cloudinary.com/dlnrtlftr/image/upload/v1675774055/hhzct0c9ye9e8wwi0yiv.jpg");
+    background-size  : contain;
+    background-repeat: no-repeat;
+    padding :12% ;
+    margin-top: 10%;
+}
+
+.a-propos:before,
+.a-propos:after {
+  background-color: #AFAFAF;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 27.5%;
+}
+.text-backgound{
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem;
+}
+.home-btns{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 5%;
+}
+.description2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.home-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size:0.95rem;
+  padding: 2.5%;
+}
+
+.home-button1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size:0.95rem;
+  padding: 2.5%;
+}
+
+.home-button1{
+  margin-top: 5%;
+}
+
+.offres{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 1.3rem;
+  width: 70%;
+  text-align: center;
+} 
+
+.offres{
+  margin-top: 2.5%;
+}
+
+.FCS{
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.service{
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+
+}
+
+.description{
+  font-size: 15px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  font-weight: lighter;
+  
+}
+.description{
+  margin-top: 1rem;
+}
+.FCS{
+  margin-top: 1rem;
+}
+}
+
+
+@media screen and (min-width: 550px) and (max-width: 768px) {
+  .intro{
+    background-image: url("https://res.cloudinary.com/dlnrtlftr/image/upload/v1675774046/fmhsuijq4mkbq2sgpryr.jpg");
+    background-size  : cover;
+    background-repeat: no-repeat;
+    padding :12% ;
+    margin-top: 8%;
+}
+
+.a-propos:before,
+.a-propos:after {
+  background-color: #AFAFAF;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 27.5%;
+}
+.text-backgound{
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem;
+}
+.home-btns{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 5%;
+}
+.description2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.home-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size:0.95rem;
+  padding: 2.5%;
+}
+
+.home-button1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size:0.95rem;
+  padding: 2.5%;
+}
+
+.home-button1{
+  margin-top: 5%;
+}
+
+.offres{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 1.3rem;
+  width: 70%;
+  text-align: center;
+} 
+
+.offres{
+  margin-top: 2.5%;
+}
+
+.FCS{
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.service{
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+
+}
+
+.description{
+  font-size: 25px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  font-weight: lighter;
+  
+}
+.description{
+  margin-top: 1rem;
+}
+.FCS{
+  margin-top: 1rem;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 898px) {
+  .intro{
+    background-image: url("https://res.cloudinary.com/dlnrtlftr/image/upload/v1675774046/fmhsuijq4mkbq2sgpryr.jpg");
+    background-size  : contain;
+    background-repeat: no-repeat;
+    padding :5% ;
+    margin-top:6%;
+}
+.FCS{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.text-backgound{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 6%;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
+}
+
+.service{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.description{
+  font-size: 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+}
+
+@media screen and (min-width: 899px) and (max-width: 992px)  {
+  .intro{
+    background-image: url("https://res.cloudinary.com/dlnrtlftr/image/upload/v1675774046/fmhsuijq4mkbq2sgpryr.jpg");
+    background-size  : contain;
+    background-repeat: no-repeat;
+    padding :5% ;
+    margin-top:10%;
+}
+.FCS{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.text-backgound{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 6%;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
+}
+
+.service{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.description{
+  font-size: 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px)  {
+  .intro{
+    background-image: url("https://res.cloudinary.com/dlnrtlftr/image/upload/v1675774046/fmhsuijq4mkbq2sgpryr.jpg");
+    background-size  : contain;
+    background-repeat: no-repeat;
+    padding :7% ;
+    margin-top:6%;
+}
+.FCS{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.text-backgound{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 6%;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
+}
+
+.service{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.description{
+  font-size: 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+}
