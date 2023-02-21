@@ -30,7 +30,7 @@ const Prices = () => {
         borderRadius: 0,
         mb : "4%" ,
         mt : "4%",
-        backgroundColor : "#F7F7F7"
+
       }}
     >
     <CardContent>
@@ -127,7 +127,7 @@ const Prices = () => {
         borderRadius: 0,
         mb : "4%" ,
         mt : "4%",
-        backgroundColor : "#F7F7F7"
+
       }}
     >
     <CardContent>
@@ -224,7 +224,7 @@ const Prices = () => {
         borderRadius: 0,
         mb : "4%" ,
         mt : "4%",
-        backgroundColor : "#F7F7F7"
+        
       }}
     >
     <CardContent>
