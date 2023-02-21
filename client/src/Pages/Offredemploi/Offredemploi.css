@@ -30,6 +30,7 @@
 
 .background-text-offre{
     background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1.25px);
     padding: 2%;
     width: 100%;
     justify-content: center;
