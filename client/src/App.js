@@ -108,15 +108,15 @@ function App() {
     Crisp.configure("7417f157-d1b7-4b70-aa36-2290c9a628b3")
   })
   
-  useEffect(() => {
-      const handleContextmenu = e => {
-          e.preventDefault()
-      }
-      document.addEventListener('contextmenu', handleContextmenu)
-      return function cleanup() {
-          document.removeEventListener('contextmenu', handleContextmenu)
-      }
-  }, [ ])
+  // useEffect(() => {
+  //     const handleContextmenu = e => {
+  //         e.preventDefault()
+  //     }
+  //     document.addEventListener('contextmenu', handleContextmenu)
+  //     return function cleanup() {
+  //         document.removeEventListener('contextmenu', handleContextmenu)
+  //     }
+  // }, [ ])
    
   
     return (
@@ -152,7 +152,7 @@ function App() {
         <header className="nav-fixed">
           <NavBar scroldown1={scroldown1} />
         </header>
-            <Suspense fallback={<CircularProgress sx={{color : "black" ,display : "flex" , alignItems : "center" , justifyContent : "center" , m : "auto" , mt :"18.5%"  }} size="3.5rem" />} >   
+            <Suspense fallback={<CircularProgress sx={{color : "black" ,display : "flex" , alignItems : "center" , justifyContent : "center" , m : "auto" , mt :"15rem" ,mb :"45%"  }} size="3.5rem" />} >   
               <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/*" element={<Error/>} />
