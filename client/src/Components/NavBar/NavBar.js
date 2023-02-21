@@ -142,8 +142,8 @@ function NavBar({ scroldown1 }) {
               }}
             >
             <Typography variant="h6" sx={{ my: 2 }}>
-            <Link underline="none" onClick={()=>handleCloseNavMenu()} href="/" >
-            <img alt="FCS logo" src={FCS} width="15%" className="FCS-logo" />
+            <Link underline="none"  href="/" >
+            <img alt="FCS logo" src={FCS} width="15%" className="FCS-logo" onClick={()=>handleCloseNavMenu()} />
           </Link>
           </Typography>
           <Divider />
