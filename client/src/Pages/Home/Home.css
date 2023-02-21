@@ -7,6 +7,7 @@
     padding :6% ;
     background-attachment: fixed;
     margin-top: 3.5%;
+
 }
 
 .water-background{
@@ -139,6 +140,7 @@
     justify-content: space-around;
     margin: auto;
     align-items: center;
+    backdrop-filter: blur(1.25px);
   }
 
   .description2{

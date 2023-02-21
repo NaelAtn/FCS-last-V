@@ -5,12 +5,14 @@
     padding: 3%;
     box-shadow: 0 5px 11px rgba(0, 0, 0, 0.4);
     margin-bottom: 3%;
+    backdrop-filter: blur(15px);
 }
 .g-d-f-text-card{
     font-size: 1.3rem;
     margin-bottom: 1%;
     color: #056CF2;
     font-weight: bold;
+
 }
 
 .g-d-f-card-img{

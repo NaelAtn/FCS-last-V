@@ -32,61 +32,53 @@ const Particulier = () => {
       <div className='particulier-container'>
         <div className='particulier-card'  data-aos="flip-up"  >
                 <img src={location} alt="localisation" className='location-img' />
-                <p className='total-color' >Total Wash</p>
-            <p className='particulier-text' >Parking indigo Saint germain Niv-1; 169 Boulevard Saint Germain, 75006 Paris </p>
+
+            <p className='particulier-text' >TotalWash <br/> Parking indigo Saint germain Niv-1; 169 Boulevard Saint Germain, 75006 Paris </p>
         </div>       
         <div className='particulier-card'  data-aos="flip-down" >
         <img src={location} alt="localisation" className='location-img' loading="lazy"/>
-        <p className='particulier-text' >Total Wash</p>
-            <p className='particulier-text' >Parking indigo place vendome Niv -1; 28 Place Vendome, 75001 Paris</p>
+            <p className='particulier-text' >TotalWash <br/> Parking indigo place vendome Niv -1; 28 Place Vendome, 75001 Paris</p>
         </div>
 
         <div className='particulier-card'  data-aos="flip-up" >
         <img src={location} alt="localisation" className='location-img' loading="lazy"/>
-        <p className='particulier-text' >Total Wash</p>
-            <p className='particulier-text' >Parking indigo Paris Louvre Samaritaine Niv -1; Pl; Du Louvre, 75001 Paris </p>
+            <p className='particulier-text' >TotalWash <br/> Parking indigo Paris Louvre Samaritaine Niv -1; Pl; Du Louvre, 75001 Paris </p>
         </div>
 
         <div className='particulier-card'  data-aos="flip-down">
         <img src={location} alt="localisation" className='location-img' />
-        <p className='particulier-text' >Total Wash</p>
-            <p className='particulier-text' >Parking indigo Saint sulpice Niv -2; 8 place saint sulpice, 75006 Paris</p>
+
+            <p className='particulier-text' >TotalWash <br/>Parking indigo Saint sulpice Niv -2; 8 place saint sulpice, 75006 Paris</p>
         </div>
 
         <div className='particulier-card' data-aos="flip-up" >
         <img src={location} alt="localisation" className='location-img' />
-        <p className='particulier-text' >Total Wash</p>
-            <p className='particulier-text' >Parking indigo Muse Niv -2; 2 rue des messageries, 57000 Metz </p>
+            <p className='particulier-text' >TotalWash <br/> Parking indigo Muse Niv -2; 2 rue des messageries, 57000 Metz </p>
         </div>
 
         <div className='particulier-card' data-aos="flip-down" >
         <img src={location} alt="localisation" className='location-img' />
-        <p className='particulier-text' >Total Wash</p>
-            <p className='particulier-text' >Parking indigo Réaumur Saint Denis Niv -1; 40 rue Dussoubs, 75002 Paris </p>
+            <p className='particulier-text' >TotalWash <br/> Parking indigo Réaumur Saint Denis Niv -1; 40 rue Dussoubs, 75002 Paris </p>
         </div>
 
         <div className='particulier-card' data-aos="flip-up" >
         <img src={location} alt="localisation" className='location-img' />
-        <p className='particulier-text' >Total Wash</p>
-            <p className='particulier-text' >Parking indigo Marché St Honoré Niv -2; 39 Place du marché Saint Honoré, 75001 Paris</p>
+            <p className='particulier-text' >TotalWash <br/> Parking indigo Marché St Honoré Niv -2; 39 Place du marché Saint Honoré, 75001 Paris</p>
         </div>
 
         <div className='particulier-card'  data-aos="flip-down" >
         <img src={location} alt="localisation" className='location-img' />
-        <p className='particulier-text' >Total Wash</p>
-            <p className='particulier-text' >Parking indigo Paris Soufflot Pnthéon Niv -2; 22 Rue Soufflot, 75005 Paris </p>
+            <p className='particulier-text' >TotalWash <br/> Parking indigo Paris Soufflot Pnthéon Niv -2; 22 Rue Soufflot, 75005 Paris </p>
         </div>
 
         <div className='particulier-card' data-aos="flip-up" >
         <img src={location} alt="localisation" className='location-img' />
-        <p className='particulier-text' >Total Wash</p>
-            <p className='particulier-text' >Parking indigo Croix des petits champs Niv-2; 14 Rue croix des petits champs, 75001 Paris </p>
+            <p className='particulier-text' >TotalWash <br/> Parking indigo Croix des petits champs Niv-2; 14 Rue croix des petits champs, 75001 Paris </p>
         </div>
 
         <div className='particulier-card' data-aos="flip-down" >
         <img src={location} alt="localisation" className='location-img' />
-        <p className='particulier-text' >Total Wash</p>
-            <p className='particulier-text' >Parking indigo Paris Saint Martin Niv ; 254 Rue saint martin face au, 75003 PARIS </p>
+            <p className='particulier-text' >TotalWash <br/> Parking indigo Paris Saint Martin Niv ; 254 Rue saint martin face au, 75003 PARIS </p>
         </div>
 
       </div>

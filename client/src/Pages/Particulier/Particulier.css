@@ -20,7 +20,7 @@ background-position: center;
 .particulier-card{
     align-items: center;
     text-align: center;
-    background-color: rgb(246, 247, 251);
+    backdrop-filter: blur(12.5px);
     width: 30%;
     padding: 3%;
     box-shadow:-2px 5px 10px rgb(0 0 0 / 15%);
@@ -28,7 +28,7 @@ background-position: center;
 }
 
 .particulier-card:hover{
-    background-color: rgb(238, 238, 238);
+    backdrop-filter: blur(15px);
     box-shadow:-2px 10px 15px rgb(0 0 0 / 15%);
     cursor: pointer;
 }
@@ -70,7 +70,7 @@ background-position: center;
         display: flex;
         text-align: center;
         margin: auto;
-        background-color: rgb(246, 247, 251);
+
         width: 80%;
         padding: 5%;
         box-shadow:-2px 5px 10px rgb(0 0 0 / 15%);
@@ -96,7 +96,7 @@ background-position: center;
     .particulier-card{
         text-align: center;
         margin: auto;
-        background-color: rgb(246, 247, 251);
+   
         width:45%;
         padding: 5%;
         box-shadow:-2px 5px 10px rgb(0 0 0 / 15%);

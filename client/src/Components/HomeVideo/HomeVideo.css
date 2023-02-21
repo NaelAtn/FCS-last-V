@@ -23,6 +23,7 @@
     text-justify: inter-word;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 2%;
+    backdrop-filter: blur(1.5px);
 }
 
 .homevideo-title{

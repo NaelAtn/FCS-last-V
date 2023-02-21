@@ -14,7 +14,7 @@ const Gestionnairedeflootecards = () => {
     <div>
 
     <div className='g-d-f-card-conatiner'  >
-        <div className='g-d-f-card'data-aos="flip-up" >
+        <div className='g-d-f-card' data-aos="flip-up" >
             <img src={img1} alt="Préparation Esthétique (VN/VO)" className='g-d-f-card-img' />
             <div>
                 <p className='g-d-f-text-card' >Préparation Esthétique (VN/VO) :</p>
