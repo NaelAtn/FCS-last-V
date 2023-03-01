@@ -32,6 +32,7 @@ exports.subNewsLetter= async(req,res)=> {
         await transporter.sendMail(mailOptions);
 
         await newNewsLetter.save()
+        res.status(200).send({success : [{msg:"Merci pour votre inscription"}] , newNewsLetter })
 
 
     } catch (error) {
