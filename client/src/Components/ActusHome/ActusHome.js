@@ -23,7 +23,7 @@ const ActusHome = () => {
       <hr className="hr1" />
         <div className="actus-home-container" >
       {listActus.length>0 ? 
-        listActus.map((el)=>( <ActusHomeCard actus={el} key={el.id} />)) : 
+        listActus.map((el)=>( <ActusHomeCard actus={el} key={el._id} />)) : 
         <Indispo/>
       }
        </div>

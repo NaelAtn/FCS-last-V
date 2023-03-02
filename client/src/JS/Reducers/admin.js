@@ -18,11 +18,11 @@ const adminReducer = ( state = InitialState , {type,payload}) => {
             return {...state, loadAdmin : true}
         case LOGIN_ADMIN :
             localStorage.setItem("token" , payload.token)
-            return{...state , loadAdmin : false , admin : payload.admin ,isAuthAdmin : true ,success : payload.success} 
+            return{...state , loadAdmin : false , admin : {...payload.admin , password : null} ,isAuthAdmin : true ,success : payload.success} 
         case CURRENT_ADMIN : 
              return {...state , admin:payload , isAuthAdmin : true , loadAdmin: false}  
         case EDIT_ADMINPASSWORD:         
-             return {...state , loadAdmin : false , admin : payload.admin , isAuthAdmin : true,success : payload.success } 
+             return {...state , loadAdmin : false , admin : {...payload.admin , password : null} , isAuthAdmin : true,success : payload.success } 
         case CLEAR_ERRORSADMIN :
             return {...state , errors : null }   
         case CLEAR_SUCCESSADMIN : 
@@ -38,7 +38,6 @@ const adminReducer = ( state = InitialState , {type,payload}) => {
             return {...state , loadAdmin : false , errors : payload}            
         default:
             return state
-
     }
 }
 
