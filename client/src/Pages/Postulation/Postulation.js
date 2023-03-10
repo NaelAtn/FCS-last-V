@@ -71,7 +71,7 @@ const Postulation = () => {
       </div>
       </div>
       <div className="Postulation-container" >
-        <p className="postulation-text">Description :</p>
+        <p className="postulation-text">📋Description :</p>
         {
           loadOffer ? 
           <Box sx={{ width: "81%" , alignItems : "center" , justifyContent : "center" , m :"auto" }}>
@@ -98,11 +98,11 @@ const Postulation = () => {
           <Skeleton animation="wave" height={30} width={"30%"} />
           </Box>
           :
-          <p className="pos-desc-text" >      
+          <div>      
           {textRole.map((text, index) => (
-            <p key={index}>{text}</p>
+            <p className="pos-desc-text" key={index}>{text}</p>
           ))}
-          </p>
+          </div>
         }
 
       <hr className="hr1" />

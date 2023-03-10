@@ -704,7 +704,7 @@
 @media screen and (min-width: 993px) and (max-width: 1200px)  {
   .intro{
     background-image: url("https://res.cloudinary.com/dlnrtlftr/image/upload/v1675774046/fmhsuijq4mkbq2sgpryr.jpg");
-    background-size  : contain;
+    background-size  : cover;
     background-repeat: no-repeat;
     padding :7% ;
     margin-top:6%;
