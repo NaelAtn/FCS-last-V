@@ -32,6 +32,7 @@ exports.addoffreValidator = () => [
     check("name" , "Veuillez insérer le titre de l'offre ").not().isEmpty(), 
     check("local" , "Veuillez insérer le local !").not().isEmpty(), 
     check("description" , "Veuillez insérer la description du poste !").not().isEmpty(),
+    check("role" , "Veuillez insérer la description du poste !").not().isEmpty(),
 ]
 
 exports.validation = (req , res , next) =>{

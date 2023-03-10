@@ -10,7 +10,7 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import ForwardToInboxSharpIcon from '@mui/icons-material/ForwardToInboxSharp';
-import { CardActions, Divider, Drawer, Link, List, Menu } from "@mui/material";
+import { CardActions, Divider, Drawer, List, Menu } from "@mui/material";
 import "./Navs.css";
 import FCS from "./FCS-logo.png";
 import MapIcon from '@mui/icons-material/Map';
@@ -111,9 +111,9 @@ function NavBar({ scroldown1 }) {
           <Toolbar
             sx={{ cursor: "pointer", ml : "-3%" ,display: { xs: "none", md: "flex" } }}
           >
-            <Link href="/" underline="none">
+            <a href="/" underline="none">
               <img alt="FCS logo" src={FCS} width="80%" className="FCS-logo" />
-            </Link>
+            </a>
           </Toolbar>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -142,9 +142,9 @@ function NavBar({ scroldown1 }) {
               }}
             >
             <Typography variant="h6" sx={{ my: 2 }}>
-            <Link underline="none"  href="/" >
-            <img alt="FCS logo" src={FCS} width="15%" className="FCS-logo" onClick={()=>handleCloseNavMenu()} />
-          </Link>
+            <a underline="none"  href="/" >
+              <img alt="FCS logo" src={FCS} width="15%" className="FCS-logo" onClick={()=>handleCloseNavMenu()} />
+            </a>
           </Typography>
           <Divider />
               <List>
@@ -293,9 +293,9 @@ function NavBar({ scroldown1 }) {
               textDecoration: "none",
             }}
           >
-            <Link href="/" underline="none"  >
+            <a href="/" underline="none"  >
               <img alt="FCS logo" src={FCS} width="70%" className="FCS-logo" />
-            </Link>
+            </a>
           </Typography>
 
           <Box

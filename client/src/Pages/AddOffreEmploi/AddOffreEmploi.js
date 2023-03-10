@@ -84,6 +84,19 @@ const AddOffreEmploi = () => {
       rows={7}
     />
 
+    <TextField
+    fullWidth
+    sx={{ mb: "3%", mt :"3%", color: "black", width : "100%" }}
+    id="standard-basic"
+    label="Rôle*"
+    variant="standard"
+    onChange={handleChange}
+    name="role"
+    type ="text"
+    multiline
+    rows={7}
+  />
+
         {load ? (
           <Button
           sx={{

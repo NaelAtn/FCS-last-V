@@ -3,7 +3,7 @@ const Offredemploi = require("../model/Offredemploi")
 
 exports.addOffredemploi= async(req,res)=> {
     try {
-        const {name , local , description } = req.body
+        const {name , local , description , role } = req.body
         const newOffredemploi = new Offredemploi({...req.body })
         await newOffredemploi.save()
         res.status(200).send({success : [{msg:"Offre d'emploi ajouté avec succés"}] , newOffredemploi })

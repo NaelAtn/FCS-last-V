@@ -21,6 +21,12 @@ const Postulation = () => {
   const loadOffer = useSelector(state => state.offredemploiReducer.load)
   const load = useSelector((state) => state.candidatureReducer.load);
 
+  const offerToGetDescription = offreToGet.description
+  const textArray = offerToGetDescription?.split(".") || []
+
+  const offerToGetRole = offreToGet.role
+  const textRole = offerToGetRole?.split(".") || []
+
   const [postulation, setPostulation] = useState({});
   const [file, setFile] = useState(null);
   
@@ -75,8 +81,30 @@ const Postulation = () => {
           <Skeleton animation="wave" height={30} width={"30%"} />
           </Box>
           :
-          <p className="pos-desc-text" >{offreToGet.description}</p>
+          <p className="pos-desc-text" >      
+          {textArray.map((text, index) => (
+            <p key={index}>{text}</p>
+          ))}
+          </p>
         }
+        <br/>
+        <p className="postulation-text">🎯Votre rôle :</p>
+        {
+          loadOffer ? 
+          <Box sx={{ width: "81%" , alignItems : "center" , justifyContent : "center" , m :"auto" }}>
+          <Skeleton animation="wave" height={30} />
+          <Skeleton animation="wave" height={30} />
+          <Skeleton animation="wave" height={30} />
+          <Skeleton animation="wave" height={30} width={"30%"} />
+          </Box>
+          :
+          <p className="pos-desc-text" >      
+          {textRole.map((text, index) => (
+            <p key={index}>{text}</p>
+          ))}
+          </p>
+        }
+
       <hr className="hr1" />
       <p className="postulation-text" >CV <span style={{color : "red"}} >*</span></p>
 
