@@ -57,7 +57,7 @@ export default function ActusHome({actus}) {
         <CardContent>
         <Link href={`/blog/${actus._id}`} sx={{textDecoration :"none" , color:"black" , "&:hover" : {color : "#056CF2"}}} >
           <Typography sx={{fontFamily : "Abel"}}>
-            <EllipsisText text={actus.name} length={"40"} />
+            <EllipsisText text={actus.name} length={40} />
           </Typography>
           </Link>
         </CardContent>

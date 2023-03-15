@@ -34,7 +34,6 @@ import ScrollTop from "./Components/ScrollTop/ScrollTop";
 import { useDispatch, useSelector } from "react-redux";
 import Successnotification from "./Components/Successnotification/Successnotification";
 import Errornotification from "./Components/Errornotification/Errornotification";
-import { Helmet } from "react-helmet";
 import NewsLetter from "./Components/NewsLetter/NewsLetter";
 import "aos/dist/aos.css";
 import Sponsor from "./Components/Sponsor/Sponsor";
@@ -136,15 +135,7 @@ function App() {
         {successCandidature && successCandidature.map((el) => <Successnotification success={el}/>)}
         {errorsCandidature && errorsCandidature.map((el) => <Errornotification error={el} /> )}
         
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>Groupe FCS, Lavage Auto ,Specialiste dans le lavage bio ecologique et gestion de flotte</title>
-          <link rel="canonical"/>
-          <meta
-            name="description"
-            content="FCS Lavage Auto Specialiste dans le lavage bio ecologique et gestion de flotte depuis 2012 , Convoyage de vos véhicules, lavage et désinfection Bio écologique par la vapeur de l'extérieur et de l'habitacle, prestations sur site ou sur l'un de nos nombreux centres partout en France. Confiez-nous vos véhicules, FCS s'occupe de tout !"
-          />
-        </Helmet> 
+
         <div className="scrollbtn">
           <ScrollTop />
         </div>
