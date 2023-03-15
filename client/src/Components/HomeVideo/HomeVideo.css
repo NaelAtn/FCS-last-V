@@ -34,7 +34,7 @@
 
 
 
-@media screen and (max-width: 620px){
+@media screen and (max-width: 767px){
     .HomeVideo-container{
         background-image: url("car-video-image-phone.jpg");
         background-size  : cover;
@@ -59,8 +59,8 @@
         margin-top: 3%;
         text-align: center;
     }
-
 }
+
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .homevideo-title{

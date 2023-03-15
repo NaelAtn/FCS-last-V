@@ -39,7 +39,7 @@ const NewsLetter = () => {
         <p className="newletter-text">Abonnez-vous à notre newsletter.</p>
         <div className="newsletter-flex">
         <Tooltip title="Veuillez remplir ce champ" followCursor>
-        <Grid container xs={6} sm={6} md={4} lg={4}  >
+        <Grid container xs={6} sm={6} md={4} lg={4} item={true}  >
         <TextField
         fullWidth
         sx={{ mb: "3%" }}
