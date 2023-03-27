@@ -349,7 +349,7 @@ const Apropos = () => {
     <h2 style={{textAlign : "center" , color : "#274C77"}} >
        Rendez nous visite
     </h2> 
-    <iframe title="fcs localisation" className="map" width="433" height="200"  frameborder="0.5" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=215%20Av.%20Georges%20Clemenceau%20Nanterre+(FCS)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+    <iframe title="fcs localisation" className="map" width="433" height="200"  frameBorder="0.5" scrolling="no" marginHeight="0" marginWidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=215%20Av.%20Georges%20Clemenceau%20Nanterre+(FCS)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
     </div>
   );
 };

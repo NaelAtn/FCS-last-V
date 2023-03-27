@@ -27,9 +27,7 @@ const HomeVideo = () => {
             Wash se charge du reste !
           </p>
           <br />
-
           <Button onClick={() => navigate("/particulier")} sx={{background : "#056CF2" ,color : "white" ,padding: "1.5%"  , borderRadius : 0,fontFamily : "Abel" ,"&:hover":{color : "white" ,background : "#025cd1"} }}>Plus de détails</Button>
-
         </div>
       </div>
     </div>

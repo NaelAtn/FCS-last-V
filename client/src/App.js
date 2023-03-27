@@ -141,7 +141,7 @@ function App() {
         </div>
   
           <NavBar scroldown1={scroldown1} className="nav-fixed" />
-
+          
             <Suspense fallback={<CircularProgress sx={{color : "black" ,display : "flex" , alignItems : "center" , justifyContent : "center" , m : "auto" , mt :"15rem" ,mb :"45%"  }} size="3.5rem" />} >   
               <Routes>
                 <Route exact path="/" element={<Home />} />
@@ -168,8 +168,7 @@ function App() {
         <Sponsor myRef1={myRef1}/>
         <NewsLetter/>
         <Footer/>
-      </div>
-      
+      </div>    
     );
   }
   
