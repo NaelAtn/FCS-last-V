@@ -263,6 +263,9 @@ export default function ReservationForm() {
           <MenuItem value="Parking indigo Paris Soufflot Pnthéon Niv -2; 22 Rue Soufflot,75005 Paris" >Parking indigo Paris Soufflot Pnthéon Niv -2; 22 Rue Soufflot,75005 Paris</MenuItem>
           <MenuItem value="Parking indigo Croix des petits champs Niv-2; 14 Rue croix des petits champs, 75001 Paris">Parking indigo Croix des petits champs Niv-2; 14 Rue croix des petits champs, 75001 Paris</MenuItem>
           <MenuItem value="Parking indigo Paris Saint Martin Niv ; 254 Rue saint martin face au, 75003 PARIS" >Parking indigo Paris Saint Martin Niv ; 254 Rue saint martin face au, 75003 PARIS</MenuItem>
+          <MenuItem value="Parking indigo Château Niv-1; 22 place Charles de Gaulle, 78100 Saint Germain en Laye" >Parking indigo Château Niv-1; 22 place Charles de Gaulle, 78100 Saint Germain en Laye</MenuItem>
+          <MenuItem value="Parking indigo Pologne Niv-1; 63 Rue de Pologne, 78100 Saint Germain en Laye" >Parking indigo Pologne Niv-1; 63 Rue de Pologne, 78100 Saint Germain en Laye</MenuItem>
+
         </Select>
         </FormControl>
           </Typography>

@@ -81,6 +81,16 @@ const Particulier = () => {
             <p className='particulier-text' >TotalWash <br/> Parking indigo Paris Saint Martin Niv ; 254 Rue saint martin face au, 75003 PARIS </p>
         </div>
 
+        <div className='particulier-card' data-aos="flip-down" >
+        <img src={location} alt="localisation" className='location-img' />
+            <p className='particulier-text' >TotalWash <br/> Parking indigo Château Niv-1; 22 place Charles de Gaulle, 78100 Saint Germain en Laye </p>
+        </div>
+
+        <div className='particulier-card' data-aos="flip-down" >
+        <img src={location} alt="localisation" className='location-img' />
+            <p className='particulier-text' >TotalWash <br/>Parking indigo Pologne Niv-1; 63 Rue de Pologne, 78100 Saint Germain en Laye</p>
+        </div>
+
       </div>
       </div>
   )

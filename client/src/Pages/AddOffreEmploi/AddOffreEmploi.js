@@ -59,6 +59,7 @@ const AddOffreEmploi = () => {
         label="Adresse*"
         style={{textOverflow: "ellipsis" }}
       >
+        <MenuItem value="Tous les locaux FCS" >Tous les locaux FCS</MenuItem>
         <MenuItem value="Parking indigo Saint germain Niv-1; 169 Boulevard Saint Germain,75006 Paris" >Parking indigo Saint germain Niv-1; 169 Boulevard Saint Germain,75006 Paris</MenuItem>
         <MenuItem value="Parking indigo place vendome Niv -1; 28 Place Vendome, 75001 Paris">Parking indigo place vendome Niv -1; 28 Place Vendome, 75001 Paris</MenuItem>
         <MenuItem value="Parking indigo Muse Niv -2; 2 rue des messageries, 57000 Metz">Parking indigo Muse Niv -2; 2 rue des messageries, 57000 Metz</MenuItem>
@@ -69,7 +70,9 @@ const AddOffreEmploi = () => {
         <MenuItem value="Parking indigo Paris Soufflot Pnthéon Niv -2; 22 Rue Soufflot,75005 Paris" >Parking indigo Paris Soufflot Pnthéon Niv -2; 22 Rue Soufflot,75005 Paris</MenuItem>
         <MenuItem value="Parking indigo Croix des petits champs Niv-2; 14 Rue croix des petits champs, 75001 Paris">Parking indigo Croix des petits champs Niv-2; 14 Rue croix des petits champs, 75001 Paris</MenuItem>
         <MenuItem value="Parking indigo Paris Saint Martin Niv ; 254 Rue saint martin face au, 75003 PARIS" >Parking indigo Paris Saint Martin Niv ; 254 Rue saint martin face au, 75003 PARIS</MenuItem>
-      </Select>
+        <MenuItem value="Parking indigo Château Niv-1; 22 place Charles de Gaulle, 78100 Saint Germain en Laye" >Parking indigo Château Niv-1; 22 place Charles de Gaulle, 78100 Saint Germain en Laye</MenuItem>
+        <MenuItem value="Parking indigo Pologne Niv-1; 63 Rue de Pologne, 78100 Saint Germain en Laye" >Parking indigo Pologne Niv-1; 63 Rue de Pologne, 78100 Saint Germain en Laye</MenuItem>
+        </Select>
       </FormControl>
       <TextField
       fullWidth
