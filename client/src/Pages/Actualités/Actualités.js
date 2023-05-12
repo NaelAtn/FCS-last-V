@@ -41,7 +41,7 @@ const Actualités = () => {
       </div>
       {isAuthAdmin && <Button  variant="contained" onClick={()=>navigate('/ajouter-blog')} sx={{borderRadius : 0 , m : "auto" , alignItems : "center" , justifyContent : "center" , display : "flex" , mt : "3%"}}><AddIcon/> Ajouter nouvelle actualité</Button> }
       <div className="actus-container" >
-      {listActus.length>0 ? listActus.map((el)=>( <ActusCard actus={el} key={el._id} />)): <Indispo/>}
+      {listActus?.length>0 ? listActus?.map((el)=>( <ActusCard actus={el} key={el._id} />)): <Indispo/>}
       </div>
     </div>
   );

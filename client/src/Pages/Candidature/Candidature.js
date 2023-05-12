@@ -35,14 +35,11 @@ const Candidature = () => {
       <div className="candidature-container" >
         {load ? 
         <CircularProgress sx={{color : "black" ,display : "flex" , alignItems : "center" , justifyContent : "center" , m : "auto" , mt :"3%"  }} size="4rem" /> 
-          :listCandidature.length > 0 ? 
-          listCandidature.map((el)=>( <CandidatureCard  candidature={el} key={el.id}/>)):
+          :listCandidature?.length > 0 ? 
+          listCandidature?.map((el)=>( <CandidatureCard  candidature={el} key={el.id}/>)):
           <Indispo/>
       }
-      </div>
-
-
-      
+      </div>    
     </div>
   );
 };
