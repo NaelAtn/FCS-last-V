@@ -12,7 +12,7 @@ import axios from "axios";
 
 export const loginAdmin = (admin, navigate) => async (dispatch) => {
   dispatch({ type: LOAD_ADMIN });
-
+ 
   try {
     let result = await axios.post("/api/admin/loginAdmin", admin);
     navigate("/");

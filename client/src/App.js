@@ -86,6 +86,7 @@ function App() {
     const{pathname}=useLocation()
   
     const myRef1 = useRef(null);
+
     const scroldown1 = () => {
       myRef1.current.scrollIntoView({ behavior: "smooth",block: 'center',inline: 'center' });
     };
@@ -140,7 +141,7 @@ function App() {
           <ScrollTop />
         </div>
   
-          <NavBar scroldown1={scroldown1} className="nav-fixed" />
+          <NavBar scroldown1={scroldown1}   className="nav-fixed" />
           
             <Suspense fallback={<CircularProgress sx={{color : "black" ,display : "flex" , alignItems : "center" , justifyContent : "center" , m : "auto" , mt :"15rem" ,mb :"45%"  }} size="3.5rem" />} >   
               <Routes>
