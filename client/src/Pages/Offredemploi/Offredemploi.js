@@ -41,14 +41,14 @@ const Offredemploi = () => {
       </div>   
       </div>
       <div className="prices-bg">
-      {listOffredemploi?.length > 0 && <p className="contact-text-form">Emplois disponibles <EventAvailableIcon/> </p> }
+      {listOffredemploi.length > 0 && <p className="contact-text-form">Emplois disponibles <EventAvailableIcon/> </p> }
       {isAuthAdmin && <Button variant="contained"  onClick={()=>navigate('/ajouter-offre-d-emploi')}  sx={{borderRadius : 0 , m : "auto" , alignItems : "center" , justifyContent : "center" , display : "flex" , mt : "3%"}} ><AddIcon/> Ajouter nouveau offre</Button> }
 
       <div className='offredemploicontainer'>
       {load ?
          <LoadOffre/>
-       : listOffredemploi?.length > 0 ?
-       listOffredemploi?.map((el)=>( <OffredemploiCard offredemploi={el} key={el.id} /> 
+       : listOffredemploi.length > 0 ?
+       listOffredemploi.map((el)=>( <OffredemploiCard offredemploi={el} key={el.id} /> 
        )) :
        <Indispo/>
     }

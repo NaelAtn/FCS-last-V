@@ -75,7 +75,7 @@ const ListNewsLetter = () => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {listNewsLetters?.map((row) => (
+          {listNewsLetters.map((row) => (
             <TableRow
               key={row.email}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}

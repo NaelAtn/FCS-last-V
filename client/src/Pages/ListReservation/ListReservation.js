@@ -102,7 +102,7 @@ const ListReservation = () => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {listReservations?.map((row) => (
+          {listReservations.map((row) => (
             <TableRow
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
