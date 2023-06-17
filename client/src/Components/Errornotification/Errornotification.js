@@ -53,8 +53,7 @@ const Errornotification = ({ error }) => {
             draggable
             className="toast-text"
             theme="dark"
-            limit={1}
-            
+            limit={1}        
           />
         </div>
       )}

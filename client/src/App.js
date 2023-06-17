@@ -42,6 +42,7 @@ import { currentAdmin } from "./JS/Actions/admin";
 import{useLocation} from"react-router-dom";
 import { Crisp } from "crisp-sdk-web";
 import { CircularProgress } from "@mui/material";
+
 const NavBar = lazy(()=>import("./Components/NavBar/NavBar"))
 const Error = lazy(()=>import("./Pages/Error/Error"))
 const Home = lazy(()=>import("./Pages/Home/Home"))
@@ -130,7 +131,7 @@ function App() {
         {NewsLetterSuccess && NewsLetterSuccess.map((el) => <Successnotification success={el} />)}
         {errorNewsLetter && errorNewsLetter.map((el) => <Errornotification error={el}  />)}
         {successOffer && successOffer.map((el) => <Successnotification success={el}/>)}
-        {errorsOffer && errorsOffer.map((el) => <Errornotification error={el} /> )}
+        {errorsOffer && errorsOffer.map( (el) => <Errornotification error={el} /> )}
         {successActus && successActus.map((el) => <Successnotification success={el}/>)}
         {errorsActus && errorsActus.map((el) => <Errornotification error={el} /> )}
         {successCandidature && successCandidature.map((el) => <Successnotification success={el}/>)}

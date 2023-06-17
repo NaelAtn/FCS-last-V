@@ -13,6 +13,7 @@ const Parametre = () => {
   const match = useMatch("/parametre/:id");
 
   const [newAdmin, setNewAdmin] = useState({});
+  
   const load = useSelector((state) => state.adminReducer.loadAdmin);
 
   const [showPassword, setShowPassword] = React.useState(false);

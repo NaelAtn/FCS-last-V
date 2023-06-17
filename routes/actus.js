@@ -72,7 +72,7 @@ router.put("/removeFav/:id" , async(req,res)=> {
 
 
 router.put("/addFav/:id" , async(req,res)=> {
-  const{id}= req.params;
+  const {id}= req.params;
   try {
      await Actus.findByIdAndUpdate({_id : req.params.id} , { $inc: {likes : 1}});
      res.status(200).send({success : [{msg:"Ajoutée a fav"}]  })

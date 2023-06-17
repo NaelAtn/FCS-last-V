@@ -137,7 +137,7 @@ function NavBar({ scroldown1 }) {
               PaperProps={{
                 sx: {
                   width: "fit-content",
-                  display: { xs: "block", md: "none" },
+                  display: { xs: "block", md: "none" } ,
                 },
               }}
             >
@@ -145,7 +145,6 @@ function NavBar({ scroldown1 }) {
             <a underline="none"  href="/" >
               <img alt="FCS logo" src={FCS} width="15%" className="FCS-logo" onClick={()=>handleCloseNavMenu()} />
             </a>
-
           <Divider />
               <List>
                 <MenuItem             

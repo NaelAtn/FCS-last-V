@@ -29,7 +29,7 @@ app.use ('/api/actus' , require ('./routes/actus'))
 app.use ('/api/offredemploi' , require ('./routes/offredemploi'))
 
 app.use((req,res) => {
-    res.send("Hello")
+    res.send("Hello...")
 })
 
 const PORT = process.env.PORT || 9876
