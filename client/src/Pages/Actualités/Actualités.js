@@ -24,6 +24,7 @@ const Actualités = () => {
   }, [dispatch]);
  
   return (
+
     <div className='Offredemploi-top'>
       <Helmet>
         <meta charSet="utf-8" />
@@ -44,6 +45,7 @@ const Actualités = () => {
       {listActus.length>0 ? listActus.map((el)=>( <ActusCard actus={el} key={el._id} />)): <Indispo/>}
       </div>
     </div>
+    
   );
 };
 
