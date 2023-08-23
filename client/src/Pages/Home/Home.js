@@ -14,7 +14,8 @@ import Prices from "../../Components/Prices/Prices";
 
 const Home = () => {
   useEffect(() => {
-    Aos.init({ duration: 1100 });
+    Aos.init({ duration: 1100,
+      once: true, });
   }, []);
 
   const myRef = useRef(null);
